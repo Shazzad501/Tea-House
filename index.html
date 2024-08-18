@@ -49,7 +49,7 @@
        <div>
         <h2 class="text-5xl text-[#1C1C1C] font-extrabold md:text-7xl">It's good <br class="hidden md:block"> tea time at The <br class="hidden md:block"> Tea House</h2>
         <p class="text-base font-bold text-[#777777] mt-[15px]">Tea and Botanical Solutions Supplier Give Optimum <br class="hidden md:block"> Satisfaction To Your Taste Buds.</p>
-        <button class="bg-gradient-to-l from-[#FF0000] to-[#FF8938] px-[18px] py-[12px] rounded-xl text-white text-l font-bold mt-[20px] flex flex-row items-center justify-center">Explore More &nbsp;&nbsp;<i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+        <button onclick="welcome()" class="bg-gradient-to-l from-[#FF0000] to-[#FF8938] px-[18px] py-[12px] rounded-xl text-white text-l font-bold mt-[20px] flex flex-row items-center justify-center">Explore More &nbsp;&nbsp;<i class="fa-solid fa-arrow-right -rotate-45"></i></button>
        </div>
        <!-- Header img content -->
         <div class="flex flex-col items-center justify-center relative">
@@ -293,5 +293,13 @@
     </div>
    </footer>
 
+   <!-- Welcome alert -->
+    <script>
+      function welcome() {
+        alert("Welcome My Shope!");
+        var name = prompt("What's your name?");
+        alert("Hello!" + " " + name + " " +"Horrry! Let's scroll this site.");
+      }
+    </script>
 </body>
 </html>
